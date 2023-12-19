@@ -1,0 +1,17 @@
+*{
+  margin :0;
+  font-family: sans-serif;
+}
+
+.contain{
+  display: flex;
+  margin-top: 50px;
+  
+}
+.link{
+  text-decoration: none;
+  color: inherit;
+}
+.routes{
+ padding-right: 2rem;
+}
