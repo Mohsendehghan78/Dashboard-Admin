@@ -1,5 +1,5 @@
 
-let XAxis =[
+ let XAxis =[
     {
         name:"jan",sale:112000
     },
@@ -37,4 +37,4 @@ let XAxis =[
         name:"dec",sale:95000
     },
 ]
-export default XAxis
+export { XAxis}
