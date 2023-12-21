@@ -27,9 +27,9 @@ export default function Feature() {
         <div className="featureItem">
           <div className="featureTitle">Revanue</div>
           <span className="featureMoney">$ 2,225</span>
-          <span className="featureRate">
+          <span className="featureRate ">
             +1.4
-            <ArrowUpwardIcon className="featureIcon"></ArrowUpwardIcon>
+            <ArrowUpwardIcon className="featureIcon positive"></ArrowUpwardIcon>
           </span>
           <div className="featureDicription">Compared to last month </div>
         </div>
