@@ -5,7 +5,7 @@ import { newUsers } from "../../datas";
 
 export default function WidgetSm() {
   return (
-    <div className="widgetSmContainer">
+    <div className="widgetSmContainer col-md-3">
       <h3 className="widgetSmTitle">New User</h3>
       <ul className="ps-0">
         {newUsers.map((user) => (

@@ -1,8 +1,12 @@
 .sidebarContainer{
     list-style: none; 
+    
+
 }
 .sidebarWrapper{
 background-color: rgb(247, 247, 247);
+position: sticky;
+top: 50px;
 }
 .sidebarMenu{
     padding: 10px 15px 0  15px;

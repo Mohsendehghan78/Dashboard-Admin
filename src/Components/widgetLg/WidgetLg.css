@@ -1,0 +1,72 @@
+.widgetLgContainer {
+    box-shadow: 0 0 10px -3px rgb(149 143 143);
+    border-radius: 10px;
+    overflow: none;
+}
+
+.widgetLgTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 0 0 1rem;
+    margin: 0;
+}
+
+.table {
+    margin: 2rem;
+}
+
+.tableRow {
+    text-align: left;
+}
+
+.tableHeader {
+    font-size: 15px;
+}
+
+.tableCostomer {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.tableCostomerImg {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50px;
+}
+
+.tableData {
+    font-size: 13px;
+    font-weight: 100;
+    color: rgb(151, 151, 151);
+}
+
+.tableAmount {
+    font-size: 13px;
+    font-weight: 100;
+    color: rgb(151, 151, 151);
+}
+
+.tableStatus {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.widgetLgBotton {
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+    font-size: 10px;
+    background-color: rgb(138, 138, 138);
+}
+.widgetLgBotton.approved{
+    color:  rgb(255, 255, 240);
+    background-color:rgb(91, 224, 151);
+}
+.widgetLgBotton.decline{
+    color: rgb(255, 255, 240) ;
+    background-color:rgb(224, 91, 131);
+}
+.widgetLgBotton.pending{
+    color:  rgb(255, 255, 240);
+    background-color:rgb(91, 186, 224);
+}

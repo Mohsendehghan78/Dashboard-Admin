@@ -55,4 +55,11 @@ const newUsers=[
 },
 
 ]
-export { XAxis ,newUsers}
+
+const tranceaction=[
+    {id:1,name:"mohsen",date:"12 Dec 2023 ",amount:125,status:"approved" ,img:"images/mohsen.png"},
+    {id:2,name:"arman",date:"20 Jul 2023 ",amount:563,status:"decline" ,img:"images/mohsen.png"},
+    {id:3,name:"amir",date:"15 May 2023 ",amount:478,status:"pending" ,img:"images/mohsen.png"},
+    {id:4,name:"Abas",date:"3 Oct 2023 ",amount:129,status:"approved" ,img:"images/mohsen.png"},
+]
+export { XAxis ,newUsers,tranceaction}
