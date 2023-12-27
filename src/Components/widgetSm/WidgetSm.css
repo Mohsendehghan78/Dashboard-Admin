@@ -1,0 +1,51 @@
+.widgetSmContainer{
+    box-shadow: 0 0 10px -3px rgb(149 143 143);
+    border-radius: 10px;
+    margin: 0 1rem;
+}
+.widgetSmTitle{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 0 0 1rem;
+    margin: 0;
+}
+.widgetSmContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0 20px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.widgetSmImg{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50px;
+}
+.widgetSmDiscrib{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.widgetSmName{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.widgetSmDiscribeTitle{
+    font-size: .8rem;
+    font-weight: 100;
+    color: #9d9d9d;
+}
+.widgetSmBotton{
+    width: 30px;
+    height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+}
+.widgetSmBottonIcon{
+    font-size: 15px!important;
+    color: #6b6b6b;
+}

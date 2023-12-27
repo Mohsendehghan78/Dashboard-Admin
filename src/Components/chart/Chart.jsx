@@ -11,7 +11,7 @@ import {
 } from "recharts";
 export default function Chart({title, data, dataKey, grid}) {
   return (
-    <div className="chart">
+    <div className="chart col-12 ">
       {" "}
       <h3 className="chartTitle">{title}</h3>
       <ResponsiveContainer width="100%" aspect={4}>
@@ -19,8 +19,7 @@ export default function Chart({title, data, dataKey, grid}) {
           width={600}
           height={300}
           data={data}
-          margin={{ top: 5, right: 20, bottom: 5, left: 0 }}
-        >
+          margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
           <Line type="monotone" dataKey={dataKey} stroke="#8884d8" />
           <XAxis dataKey="name" />
           <YAxis />

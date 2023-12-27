@@ -37,4 +37,22 @@
         name:"dec",sale:95000
     },
 ]
-export { XAxis}
+
+const newUsers=[
+{
+    id:1,name:"mohsen",title:"Front End developer",img:"images/mohsen.png"
+},
+{
+    id:2,name:"arman",title:"back End developer",img:"images/mohsen.png"
+},
+
+{
+    id:3,name:"ali",title:"Full stack developer",img:"images/mohsen.png"
+},
+
+{
+    id:4,name:"nima",title:"hacker",img:"images/mohsen.png"
+},
+
+]
+export { XAxis ,newUsers}
